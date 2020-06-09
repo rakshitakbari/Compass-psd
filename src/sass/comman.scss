@@ -1,0 +1,18 @@
+.title-section{
+    margin-bottom: 80px !important;
+    h2 {
+        font-size: 24px;
+        font-weight: normal;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 20px;
+        color:  $black;
+    }
+    span {
+        display: block;
+        width: 70px;
+        height: 4px;
+        background: $theme-color;
+        margin: 0 auto;
+    }
+}

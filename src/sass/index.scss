@@ -1,0 +1,27 @@
+#home{
+    @include media-breakpoint-down(md){
+        display: none;
+    } 
+    .carousel-inner{
+        .flex-caption{
+            position: absolute;
+            top: 39%;
+            width: 100%;
+            text-align: center;
+            z-index: 999;
+            color: $white;
+            h2 {
+                font-size: 50px;
+                text-transform: uppercase;
+                font-weight: 700;
+                color: $white;
+                margin-bottom: 45px;    
+            }
+            p {
+                font-size: 18px;
+                line-height: 28px;
+                color: $white;
+            }
+        }
+    }
+}

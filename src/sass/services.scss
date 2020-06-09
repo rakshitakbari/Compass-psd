@@ -1,0 +1,31 @@
+#service{
+    padding: 80px 0;
+    @include media-breakpoint-down(md){
+        padding: 30px 0;
+    } 
+    .service-item{
+        .service-header {
+            padding-bottom: 20px;
+            clear: both;
+            display: flex;
+            align-items: center;
+            i {
+                color: $theme-color;
+                font-size: 20px;
+                float: left;
+                margin-right: 25px;
+            }
+            h3 {
+                font-size: 16px;
+                text-transform: uppercase;
+                font-weight: 600;
+                color: $black
+            }
+        }
+        .service-description{
+            color: #777777;
+            font-size: 12px;
+            line-height: 2;
+        }
+    }
+}
